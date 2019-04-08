@@ -56,10 +56,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Custom\UserControls\ListViewItem.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Form\View\StrageExplorer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -71,11 +67,6 @@
     <Compile Include="Class\FileItem.cs" />
     <Compile Include="Class\PathTree.cs" />
     <Compile Include="Converter\BitmapConverter.cs" />
-    <Compile Include="Custom\Controls\ListBox.cs" />
-    <Compile Include="Custom\Controls\TreeView.cs" />
-    <Compile Include="Custom\UserControls\ListViewItem.xaml.cs">
-      <DependentUpon>ListViewItem.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Form\Model\StrageExplorer.cs" />
     <Compile Include="Form\ViewModel\StrageExplorer.cs" />
     <Compile Include="Form\View\StrageExplorer.xaml.cs">
@@ -110,6 +101,10 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <ProjectReference Include="..\..\Common\CommonControls\CommonControls.csproj">
+      <Project>{2f642622-633e-430d-bf13-cfff4077f854}</Project>
+      <Name>CommonControls</Name>
+    </ProjectReference>
     <ProjectReference Include="E:\_Job\GitHub\Common\Common\Common.csproj">
       <Project>{326c56d4-4067-435f-b7b0-a93b167c2186}</Project>
       <Name>Common</Name>

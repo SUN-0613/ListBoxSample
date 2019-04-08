@@ -6,7 +6,7 @@
         mc:Ignorable="d"
         xmlns:vm="clr-namespace:ListBoxSample.Form.ViewModel"
         xmlns:class="clr-namespace:ListBoxSample.Class"
-        xmlns:ex="clr-namespace:ListBoxSample.Custom.Controls"
+        xmlns:ex="clr-namespace:AYam.Common.Controls.Custom;assembly=Common.Controls"
         xmlns:uc="clr-namespace:ListBoxSample.Custom.UserControls"
         Title="{Binding WindowTitle, Mode=OneTime}" 
         Height="450" Width="800">
