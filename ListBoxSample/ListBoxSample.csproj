@@ -56,6 +56,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Custom\UserControls\ListViewItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Form\View\StrageExplorer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -67,6 +71,9 @@
     <Compile Include="Class\FileItem.cs" />
     <Compile Include="Class\PathTree.cs" />
     <Compile Include="Converter\BitmapConverter.cs" />
+    <Compile Include="Custom\UserControls\ListViewItem.xaml.cs">
+      <DependentUpon>ListViewItem.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Form\Model\StrageExplorer.cs" />
     <Compile Include="Form\ViewModel\StrageExplorer.cs" />
     <Compile Include="Form\View\StrageExplorer.xaml.cs">
