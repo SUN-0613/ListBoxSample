@@ -1,4 +1,4 @@
-﻿using AYam.Common.ViewModel;
+﻿using AYam.Common.MVVM;
 using System;
 using System.Collections;
 using System.Collections.ObjectModel;
@@ -9,7 +9,7 @@ namespace ListBoxSample.Form.ViewModel
     /// <summary>
     /// StrageExplorer.ViewModel
     /// </summary>
-    public class StrageExplorer : VMBase, IDisposable
+    public class StrageExplorer : ViewModelBase, IDisposable
     {
 
         #region Property

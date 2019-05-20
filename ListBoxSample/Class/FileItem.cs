@@ -1,4 +1,4 @@
-﻿using AYam.Common.ViewModel;
+﻿using AYam.Common.MVVM;
 using System;
 using System.Drawing;
 using System.IO;
@@ -9,7 +9,7 @@ namespace ListBoxSample.Class
     /// <summary>
     /// 指定フォルダのファイル情報
     /// </summary>
-    public class FileItem : VMBase, IDisposable
+    public class FileItem : ViewModelBase, IDisposable
     {
 
         #region Property

@@ -1,4 +1,4 @@
-﻿using AYam.Common.ViewModel;
+﻿using AYam.Common.MVVM;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -11,7 +11,7 @@ namespace ListBoxSample.Class
     /// <summary>
     /// フォルダ階層
     /// </summary>
-    public class PathTree : VMBase, IDisposable
+    public class PathTree : ViewModelBase, IDisposable
     {
 
 
